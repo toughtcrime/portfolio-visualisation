@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Roboto;
+    background-color:#232323;
+    overflow: auto;
+}
+
+
+a,li {
+    text-decoration: none;
+    color: #000;
+}
+
+.AboutMe {
+    font-size: 20px;
+}
+
+.content {  
+    height: 15vh;
+}
+
+
+
+.title-bio {
+    font-size: 4vw !important;
+}
+
+.AboutMe {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+
+canvas {
+    background: #232323;
+    position: fixed;
+    z-index: -1;
+  }
+
+  .Biography h1 {
+    font-size: 6vh;
+    color: #fff;
+    opacity: 0.9;
+  }
+
+  .Biography p {
+      font-size: 5vh;
+      color: #fff;
+  }
+
+
+  #navbarNav li a{
+      padding: 0.5em 3em !important;
+      align-items: center !important;   
+  }
+
+  .navbar-brand {
+      margin-top: 0.500rem;
+  }
+
+  .navbar-custom-white a {
+     color: #fff !important;
+     font-size: 1.2em !important;
+     height: 50px !important;
+  }
+
+  #navbarNav a:hover {
+    color: #000 !important;
+    background-color: #fff !important;
+    border-radius: 5px;
+ }
+
+  .bg-black {
+    background-color: #000 !important;
+  }
+
+.projects {
+    width: 100%;
+    height: 150px;
+    background-color: #232323;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.project-card {
+    width: 500px;
+    height: 100px;
+    background: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    border: 1px solid #fff;
+}
+
+.project-card:hover {
+    transition: 1s;
+    margin-bottom: 20px;
+}
+
+
+.project-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px;
+}
+
+
+.wrapper {
+    min-height: 94%;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.project-description {
+    color: #fff;
+}
+
+.tech-skills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.skills li{
+    color: #fff;
+}

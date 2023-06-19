@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>BIO</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom-white navbar-dark bg-black fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/toughtcrime" target="_blank">GitHub</a>
+                   </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <main>
+        <section>
+            <canvas id="canvas">
+            </canvas>
+            <div class="content">
+                <div class="AboutMe">
+                    <div class="Biography">
+                        <h1>Vladyslav Hlovatskyi</h1> 
+                        <p>.NET Developer</p>
+
+
+                        <div class="tech-skills">
+                            <div class="part-1">
+                                <ul class="skills">
+                                    <li>C#</li>
+                                    <li>JavaScript</li>
+                                    <li>Postgresql</li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <ul class="skills">
+                                    <li>MS SQL</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Git</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+                </div>
+
+                <div class="projects">
+                        <div class="project-card" onclick="window.open('https://github.com/toughtcrime/TaskManager','_newtab')">
+                            <div class="wrapper">
+                            
+                            <div class="project-title">
+                                <a class="project-link">TaskManager <i class="fa-solid fa-microchip"></i></a>
+                            </div>
+                            <div class="project-body">
+                                <p class="project-description">Simple Task Manager created on WPF.</p>
+                            </div>
+                            
+                        </div>
+                        </div>
+                        <div class="project-card" onclick="window.open('https://github.com/toughtcrime/MoneyManager','_newtab')">
+                            <div class="wrapper">
+                             
+                            <div class="project-title"> 
+                                <a class="project-link" href="https://github.com/toughtcrime/MoneyManager">
+                                    MoneyManager
+                                    <i class="fa-solid fa-dollar-sign"></i>
+                                </a>
+                            </div>
+                            <div class="project-body">
+                                <p class="project-description">Backend for finance management. Project is not finished yet.</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="project-card" onclick="window.open('https://github.com/toughtcrime','_newtab');">
+                          
+                            <div class="wrapper">
+                               
+                            <div class="project-title">
+                                <a href="https://github.com/toughtcrime" class="project-link">
+                                    Book Store
+                                    <i class="fa-solid fa-book"></i>
+                                </a>
+                            </div>
+                            <div class="project-body">
+                                <p class="project-description">Book Store build on ASP.NET MVC</p>
+                            </div>
+                            
+                        </div>
+                        
+                        </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./JS/ConnectedDots.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/53bd81a10b.js" crossorigin="anonymous"></script>
+</body>
+</html>
