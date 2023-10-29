@@ -69,7 +69,7 @@ section.sect {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 80vh;
+    min-height: 100vh;
 }
 
 .project-cards {
