@@ -136,5 +136,63 @@ section.sect {
 
 .list-item {
     text-align: left;
+}
 
+
+.minimized {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.tech-item {
+    width: 150px;
+    background-color: #5a28b8;
+    display: flex;
+    justify-content: space-around;
+}
+
+table {
+    width: 250px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    margin: 5px;
+    cursor: pointer;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #2a506d; /* Cyan border color */
+    height: 5px;
+}
+
+th {
+    background-color: #0d3a5c; /* Dark blue header background */
+}
+
+tr:nth-child(even) {
+    background-color: #0c324f; /* Dark blue row background */
+}
+
+tr:nth-child(odd) {
+    background-color: #0e3e60; /* Dark blue row background */
+}
+
+tr:hover {
+    background-color: #146d8c; /* Darker cyan color on hover */
+    transition: background-color 0.3s ease;
+}
+
+.image-column img {
+    width: 50px; /* Adjust the width of the images as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.tech-skills {
+    display: flex;
 }
