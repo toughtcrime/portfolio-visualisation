@@ -4,6 +4,7 @@ const observer = new IntersectionObserver((entries) => {
         {
             entry.target.classList.add('animate__animated');
             entry.target.classList.add('animate__fadeIn');
+            entry.target.classList.add('animate__delay-fast');
         }
     });
 });
