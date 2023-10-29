@@ -65,7 +65,7 @@ body {
     text-align: center;
 }
 
-section {
+section.sect {
     display: grid;
     place-items: center;
     align-content: center;

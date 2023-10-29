@@ -1,5 +1,11 @@
-@media  screen and (max-width: 996px) {
-    .content {
-        height: 50vh;
-    }
+@media screen and (max-width: 768px) {
+   .project-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+   }
+   .item-card {
+        margin: 10px auto;
+   }
 }
