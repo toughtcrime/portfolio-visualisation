@@ -75,8 +75,9 @@ section.sect {
 .project-cards {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 50px;
+    10px;
 }
 
 /* .project-section {
@@ -88,7 +89,7 @@ section.sect {
     min-height: 300px;
     color: #000;
     background-color: #dddddd;
-    margin: 10px;
+    margin-left: 50px;
     border-radius: 3px;
     transition: box-shadow 0.3s ease;
     cursor: pointer;
@@ -101,7 +102,7 @@ section.sect {
 }
 
 .desc-list {
-    padding: 20px;
+    padding: 30px;
 }
 
 .list-item {
@@ -127,4 +128,13 @@ section.sect {
     .hidden {
         transition: none;
     }
+}
+
+.item-disc-list {
+    margin: 20px;
+}
+
+.list-item {
+    text-align: left;
+
 }
